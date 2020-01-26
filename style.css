@@ -1,0 +1,40 @@
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+header {
+	font-size: 30px;
+}
+
+#navbar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	position: fixed;
+	height: 100%;
+	border-right: 2px solid black;
+	width: 340px;
+}
+
+.nav-header{
+	padding-left: 20px;
+}
+.nav-link{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	border-top: 1px solid black;
+  margin-left: -10px; 
+  padding-left: 30px;
+  padding-top: 15px;
+
+}
+
+.main-section {
+	margin-left: 400px;
+
+}
